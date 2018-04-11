@@ -32,7 +32,7 @@ package com.iluwatar.singleton;
  * @author mortezaadi@gmail.com
  */
 public final class ThreadSafeDoubleCheckLocking {
-
+  //volatile关键字保障运行顺序
   private static volatile ThreadSafeDoubleCheckLocking instance;
 
   /**
